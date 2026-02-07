@@ -26,7 +26,7 @@ python Main.py
 ```
 es necesario ejecutar el `Main.py` con privilegios de administrador (requerido para el manejo de paquetes de red)
 
-##Ejemplo de Uso y Salida:
+## 💻 Ejemplo de Uso y Salida:
 
 Introduce el rango de tu red (ej. 192.168.0.1/24): 192.168.0.1/24
 [!] Escaneando: 192.168.0.1/24
