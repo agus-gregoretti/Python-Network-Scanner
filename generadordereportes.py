@@ -4,7 +4,7 @@ from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet
 
 def generate_pdf(data, target_network):
-    file_name = "Reporte_Auditoria_Pro.pdf"
+    file_name = "Reporte_Auditoria.pdf"
     doc = SimpleDocTemplate(file_name, pagesize=letter, topMargin=40, bottomMargin=40)
     styles = getSampleStyleSheet()
     
@@ -35,4 +35,5 @@ def generate_pdf(data, target_network):
     
     tabla.setStyle(style)
     elements.append(tabla)
+
     doc.build(elements)
