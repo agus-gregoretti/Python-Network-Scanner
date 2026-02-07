@@ -28,23 +28,25 @@ es necesario ejecutar el `Main.py` con privilegios de administrador (requerido p
 
 ## 💻 Ejemplo de Uso y Salida:
 
+```text
 Introduce el rango de tu red (ej. 192.168.0.1/24): 192.168.0.1/24
 [!] Escaneando: 192.168.0.1/24
 
 [+] Dispositivos encontrados:
---------------------------------------------------
-IP: 192.168.0.1   | MAC: 02:10:18:XX:XX:XX | Vendor: N/A
-IP: 192.168.0.116 | MAC: 2c:f0:5d:XX:XX:XX | Vendor: Micro-Star INTL CO., LTD.
-IP: 192.168.0.21  | MAC: cc:6e:a4:XX:XX:XX | Vendor: Samsung Electronics Co.,Ltd
-IP: 192.168.0.89  | MAC: 76:5d:bc:XX:XX:XX | Vendor: N/A
-IP: 192.168.0.219 | MAC: cc:40:85:XX:XX:XX | Vendor: WiZ
---------------------------------------------------
+-----------------------------------------------------------------------
+IP              | MAC Address          | Vendor
+-----------------------------------------------------------------------
+192.168.0.1     | 02:10:18:XX:XX:XX    | N/A
+192.168.0.116   | 2c:f0:5d:XX:XX:XX    | Micro-Star INTL CO., LTD.
+192.168.0.21    | cc:6e:a4:XX:XX:XX    | Samsung Electronics Co.,Ltd
+192.168.0.89    | 76:5d:bc:XX:XX:XX    | N/A
+192.168.0.219   | cc:40:85:XX:XX:XX    | WiZ
+-----------------------------------------------------------------------
 
 [+] Proceso finalizado. Revisá tu PDF.
 
-
 ---
-
+```
 ## 🤝 Contribuciones y Contacto
 ¡Gracias por leerme! Este es uno de mis primeros proyectos, así que si el programa te sirve, te resulta interesante o tenés alguna idea para mejorarlo, sentite libre de clonarlo y probarlo!
 
